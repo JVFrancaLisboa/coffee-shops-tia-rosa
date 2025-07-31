@@ -1,11 +1,8 @@
-from entities.cliente import Cliente
-from produto import Produto
-
 class Pedido:
-    def __init__(self, cliente: Cliente, produtos: list[Produto]):
+    def __init__(self, cliente, produtos):
         self.cliente = cliente
         self.produtos = produtos
 
     def __str__(self):
-        produtos_str = ", ".join(str(p) for p in self.produtos)
-        return f"Pedido de {self.Cliente.nome}: [{produtos_str}]"
+        produtos_str = ", ".join(p.nome for p in self.produtos)
+        return f"Pedido de {self.cliente.nome}: {produtos_str}"
