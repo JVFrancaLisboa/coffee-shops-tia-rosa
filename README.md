@@ -16,6 +16,7 @@ Criar um sistema de gerenciamento básico com funcionalidades como:
 O projeto está organizado da seguinte forma:
 
 cafeteria/
+
 ├── entities/
 
 │ ├── cliente.py # Classe Cliente
