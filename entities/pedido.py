@@ -1,4 +1,4 @@
-from cliente import Cliente
+from entities.cliente import Cliente
 from produto import Produto
 
 class Pedido:
