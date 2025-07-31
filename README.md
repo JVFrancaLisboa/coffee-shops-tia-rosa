@@ -17,11 +17,17 @@ O projeto está organizado da seguinte forma:
 
 cafeteria/
 ├── entities/
+
 │ ├── cliente.py # Classe Cliente
+
 │ ├── produto.py # Classe Produto
+
 │ └── pedido.py # Classe Pedido
+
 ├── services/
+
 │ └── servicos.py # Listas globais de produtos e clientes
+
 ├── main.py # Execução principal e simulação do sistema
 
 
