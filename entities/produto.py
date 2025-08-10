@@ -5,4 +5,4 @@ class Produto:
         self.descricao = descricao
 
     def __str__(self):
-        return f"{self.nome} - R$ {self.preco:.2f}"
+        return f"{self.nome} - R$ {self.preco:.2f} (Descrição: {self.descricao})"
